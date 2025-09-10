@@ -1,0 +1,16 @@
+a=[]
+n=int(input("enter elements in the list "))
+for i in range (0,n):
+    m=int(input("enter the element"))
+    a.append(m)
+print(a)
+print(a[0])
+print(a[3])
+print(a[-5:])
+print(a[1:])
+print(a[1:8])
+print(a[-8:-0])
+a.extend([9,8,7])
+print(a)
+a.insert([4,6])
+print(a)
